@@ -1,0 +1,58 @@
+body{
+    background-color: ;
+}
+
+
+
+.card{
+    box-shadow: 0 0 10px 0 rgba(61, 18, 18, 0.26);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function displaySinglePost(){
+    //   fetch('https://jsonplaceholder.typicode.com/posts/50')
+    //   .then(response => response.json())
+    //   .then((data) => {
+    //       console.log(data)
+    //       console.log(data.body)
+      
+    
+    //   let singleCardHolder = document.getElementById('single-card-holder')
+    
+    //   console.log(singleCardHolder);
+    
+    //   let content ="";
+    
+    //   content += `
+    //   <div class="col-md-4 ">
+    //             <div class="card text-center" style="width: 18rem;">
+                   
+    //                 <div class="card-body bg-success text-white">
+    //                   <h5 class="card-title py-3">${data.title}</h5>
+    //                   <p class="text-center py-4">${data.body}.</p>
+    //                   <h3>${data.id}</h3>
+    //                   <a href="index.html" class="btn btn-warning my-3 stretched-link">Home Page</a>
+    //                 </div>
+    //               </div>
+    //         </div>`
+         
+    //     singleCardHolder.innerHTML = content
+    
+    //   });
+    
+    // }
+    
+    // displaySinglePost()
