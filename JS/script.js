@@ -44,7 +44,7 @@ displayPost();
 
 function displayItems(e){
   let dataId = e.target.getAttribute("data-id") 
-  window.location = `/singlepage.html?id=${dataId}`
+  window.location = `./singlepage.html?id=${dataId}`
 }
 
 
