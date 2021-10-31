@@ -1,10 +1,10 @@
 function getItem(id) {
-    let local_data = JSON.parse(localStorage.getItem("data"))
+    let localData = JSON.parse(localStorage.getItem("data"))
 
-    let user_data = local_data.find(function(ele) {
+    let userData = localData.find(function(ele) {
         return ele.id === id
     })
-    return user_data
+    return userData
 }
 
 function displayItem () {
